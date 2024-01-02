@@ -1,0 +1,19 @@
+HW 06 walkthrough--->
+
+> First set up the project on Firebase, then add the package files in Gradle and also the Google services JSON file.
+
+> Then enable the email sign-in and password and add a Firebase database too.
+
+> Now first write the login and signup code. (follow the coding steps in the code).
+
+> Then go to create forum frag and follow those steps (fe1 steps).
+
+> (a1 steps) Go to Forums FRAG, create a forum class file, then write the recycler view code, set up ui, and also check which user is logged in and then code for that, then do the binding in onViewCreated. now write the code for getting data (listener register of Firebase). once that's done write it's on destroy too.
+
+> Now go to the collection in FireStore and add "LIKES" as an array, then go to Create a forum frag and follow the (b1 steps) and then in forum frag too. then add the date too (b3 steps)
+
+> Now go to the Forum Frag (the one post that is created) and follow the c1 steps, in ForumsFrag add the gotoForum listener, and adapter to click and go to individual forums, now come back to the main Forum Frag and then follow the c3 steps
+
+> Now go to Firestore and create another collection of "comments" inside the "forums" and after that come back to the code and write the submit button code. then in the c4 steps, write the recycler view code and create a "comment" class file too, and then write the code for listener register and setupUI.
+
+> Now last part is deleting the main forum in the forum fragment (follow the d1 steps). 
